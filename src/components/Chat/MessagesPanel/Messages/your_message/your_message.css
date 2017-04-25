@@ -1,0 +1,34 @@
+.message__icon {
+  margin: 0 15px; }
+
+.message__text {
+  position: relative;
+  /* for date - position: absolute */
+  padding: 17px 23px;
+  max-width: 300px;
+  background-color: #989AD7;
+  color: white;
+  border-radius: 10px;
+  color: white;
+  opacity: 0.8; }
+
+.message__time {
+  position: absolute;
+  bottom: -25px;
+  right: 10px;
+  font-size: 0.8em;
+  color: #989AD7; }
+
+/*->>start: RIGHT SIDE MESSAGES*/
+.message--right {
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+
+.message__text--right {
+  color: black;
+  background-color: #F1F1FB; }
+
+.message__time--right {
+  left: 10px; }
+
+/*<<-end: RIGHT SIDE MESSAGES*/

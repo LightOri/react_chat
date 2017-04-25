@@ -1,0 +1,78 @@
+.contact-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  text-decoration: none; }
+
+.contact-wrapper:target {
+  background-color: #F23F79; }
+
+.contact-wrapper:target .contact-time {
+  color: #F23F79;
+  background-color: white; }
+
+.round-user-icon {
+  margin: 15px;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  border-radius: 50%;
+  background-image: url(/img/Barack-Obama.jpg);
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.contact-info {
+  padding-right: 5px;
+  padding-left: 5px;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  overflow: hidden; }
+
+.contact-info h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.contact-info p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  opacity: 0.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0px;
+  margin-bottom: 2px; }
+
+.contact-time {
+  min-width: 50px;
+  height: 1.2em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #37398D;
+  border-radius: 0.6em; }
+
+.contact-time p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 0px;
+  margin-bottom: 0px; }

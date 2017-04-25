@@ -1,0 +1,4 @@
+.contact-list {
+  max-height: calc(100vh - 70px);
+  overflow: auto;
+}
