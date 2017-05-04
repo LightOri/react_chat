@@ -1,5 +1,7 @@
 .bottom-area {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -7,7 +9,9 @@
   margin-right: 40px; }
 
 .typing-box {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
   margin: 0 25px;
   padding: 6px;

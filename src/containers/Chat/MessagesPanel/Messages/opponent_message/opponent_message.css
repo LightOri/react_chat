@@ -1,6 +1,9 @@
 .message {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: end;
   align-items: flex-end;
   width: 100%;
   margin-left: 15px;

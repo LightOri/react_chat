@@ -5,8 +5,7 @@ class Contact extends React.Component {
 
   render() {
 
-	// const userAvatarPath = '/img/' + this.props.name.replace(' ','-') + '.jpg';
-	const userAvatarPath = '/img/Donald-Trump.jpg';
+	const userAvatarPath = '/img/' + this.props.name.replace(' ','-') + '.jpg';
 	const userAvatarStyle = {backgroundImage: 'url(' + userAvatarPath + ')'};
 	// console.log(userAvatarStyle);
 

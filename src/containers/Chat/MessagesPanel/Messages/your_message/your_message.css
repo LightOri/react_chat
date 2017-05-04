@@ -1,12 +1,3 @@
-.message {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  width: 100%;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 60px; }
-
 .message__icon {
   margin: 0 15px; }
 
@@ -27,3 +18,17 @@
   right: 10px;
   font-size: 0.8em;
   color: #989AD7; }
+
+/*->>start: RIGHT SIDE MESSAGES*/
+.message--right {
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+
+.message__text--right {
+  color: black;
+  background-color: #F1F1FB; }
+
+.message__time--right {
+  left: 10px; }
+
+/*<<-end: RIGHT SIDE MESSAGES*/

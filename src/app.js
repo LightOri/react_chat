@@ -2,9 +2,9 @@ import React from 'react';
 import { Router, Route, Link, Redirect } from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 import './app.css';
-import Home from './components/Home';
-import Login from './components/Login';
-import Register from './components/Register';
+import HomeContainer from './containers/Home';
+import LoginContainer from './containers/Login';
+import RegisterContainer from './containers/Register';
 import Chat from './components/Chat';
 
 const history = createBrowserHistory();
@@ -21,9 +21,9 @@ class App extends React.Component {
 				<Link to="/chat">Chat</Link>
 			</nav>
 			<Route exact path='/' render={() => <Redirect to="/home"/>}/>
-			<Route path='/home' component={Home}/>
-			<Route path='/login' component={Login}/>
-			<Route path='/register' component={Register}/>
+			<Route path='/home' component={HomeContainer}/>
+			<Route path='/login' component={LoginContainer}/>
+			<Route path='/register' component={RegisterContainer}/>
 			<Route path='/chat' component={Chat}/>
 	      </div>
 	    </Router>

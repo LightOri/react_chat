@@ -1,6 +1,9 @@
 .chat section {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   max-height: calc(100vh - 154px);
   overflow: auto;
