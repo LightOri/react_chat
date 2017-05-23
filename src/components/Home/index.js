@@ -5,7 +5,7 @@ class Home extends React.Component {
   render() {
     return (
     	<div className="home">
-			<h1>Welcome to AOI-Chat application!</h1>
+			<h1>Welcome to Chat application!</h1>
 		</div>
     );
   }

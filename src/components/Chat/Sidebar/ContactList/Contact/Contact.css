@@ -1,71 +1,80 @@
 .contact-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  text-decoration: none; }
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .contact-wrapper:target {
-  background-color: #F23F79; }
+    background-color: #f23f79;
+}
 
 .contact-wrapper:target .contact-time {
-  color: #F23F79;
-  background-color: white; }
+    color: #f23f79;
+    background-color: white;
+}
 
 .round-user-icon {
-  margin: 15px;
-  width: 48px;
-  height: 48px;
-  min-width: 48px;
-  min-height: 48px;
-  border-radius: 50%;
-  background-image: url(/img/Barack-Obama.jpg);
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;
+    margin: 15px;
+    border-radius: 50%;
+    background-image: url(/img/Barack-Obama.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
 
 .contact-info {
-  padding-right: 5px;
-  padding-left: 5px;
-  flex-grow: 1;
-  overflow: hidden; }
+    overflow: hidden;
+    padding-right: 5px;
+    padding-left: 5px;
+    flex-grow: 1;
+}
 
 .contact-info h4 {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 6px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 
 .contact-info p {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-size: 13px;
-  opacity: 0.5;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-top: 0px;
-  margin-bottom: 2px; }
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    opacity: 0.5;
+}
 
 .contact-time {
-  min-width: 50px;
-  height: 1.2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: #37398D;
-  border-radius: 0.6em; }
+    display: flex;
+    min-width: 50px;
+    height: 1.2em;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 0.6em;
+    background-color: #37398d;
+    justify-content: center;
+    align-items: center;
+}
 
 .contact-time p {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-  opacity: 0.5;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0.5;
+}

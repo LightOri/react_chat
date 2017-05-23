@@ -1,20 +1,23 @@
 .chat {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 60%; }
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+}
 
 .chat header {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  height: 60px; }
+    display: flex;
+    height: 60px;
+    margin-top: 10px;
+    justify-content: center;
+}
 
 .chat header div {
-  display: flex;
-  /* logo vertical alignment */ }
+    display: flex;
+}
 
 .chat header img {
-  margin: auto 0;
-  /* logo vertical alignment */
-  width: 120px; }
+    margin: auto 0;
+    /* logo vertical alignment */
+    width: 120px;
+}

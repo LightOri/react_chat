@@ -1,7 +1,8 @@
 .chat section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-height: calc(100vh - 154px);
-  overflow: auto;
-  font-family: "Lato", sans-serif; }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: calc(100vh - 154px);
+    overflow: auto;
+    font-family: "Lato", sans-serif;
+}

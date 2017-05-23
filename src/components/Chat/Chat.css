@@ -1,6 +1,6 @@
 .chat-window {
-  display: flex;
-  width: 100%;
-  height: calc(100vh - 60px);
-  border-top: 5px inset red;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 60px);
+    border-top: 5px inset red;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from '../../components/Login';
+import Login from '../components/Login';
 import * as io from 'socket.io-client';
 
 class LoginContainer extends React.Component {
@@ -57,16 +57,6 @@ class LoginContainer extends React.Component {
 
 	// on leave
 	socket.on('leave', msg => {console.log('User ' + msg.user.username + ' has left!') });
-
-		// sending message
-/*	const message = 'testMsg32';
-	socket.emit('message', message);*/
-
-	// userlist
-	/*fetch('http://eleksfrontendcamp-mockapitron.rhcloud.com/users', {method: 'GET'})
-		.then(res => res.json())
-		.then(res => JSON.stringify(res))
-		.then(res =>console.log(res));*/
   }
 
 

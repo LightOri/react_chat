@@ -1,48 +1,54 @@
 .bottom-area {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 5px;
-  margin-right: 40px; }
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    align-items: center;
+}
 
 .typing-box {
-  display: flex;
-  align-items: center;
-  margin: 0 25px;
-  padding: 6px;
-  width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: #EDEDFA; }
+    display: flex;
+    width: 100%;
+    margin: 0 25px;
+    padding: 6px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #ededfa;
+    align-items: center;
+}
 
 .typing-box input {
-  overflow: auto;
-  width: 200%;
-  margin-left: 10px;
-  border: 0;
-  outline: none;
-  background-color: #EDEDFA; }
+    overflow: auto;
+    width: 200%;
+    margin-left: 10px;
+    border: 0;
+    outline: none;
+    background-color: #ededfa;
+}
 
 #smiley {
-  padding-right: 5px;
-  padding-bottom: 2px;
-  font-size: 1.6em;
-  opacity: 0.4;
-  cursor: pointer; }
+    font-size: 1.6em;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    opacity: 0.4;
+}
 
 input[type=file] {
-  display: none; }
+    display: none;
+}
 
 label[for=file] {
-  overflow: hidden;
-  width: 40px;
-  height: 30px;
-  cursor: pointer;
-  background-image: url(/img/file.png);
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  background-size: contain; }
+    overflow: hidden;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url(/img/file.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}

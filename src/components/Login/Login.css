@@ -1,80 +1,81 @@
 .login-section {
-  display: block;
-  clear: both;
-  width: 400px;
-  height: 450px;
-  background-color: #3B3E99;
-  border: solid 4px #9c9dd8;
-  font-family: "Lato", sans-serif;
-  color: white;
+    display: block;
+    clear: both;
+    width: 400px;
+    height: 450px;
+    background-color: #3b3e99;
+    border: solid 4px #9c9dd8;
+    font-family: "Lato", sans-serif;
+    color: white;
 }
 
 .login-section p {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  text-align: center;
-  font-size: 2em;
-  font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
 }
 
 .login-section form {
-  width: 240px;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .login-section form label {
-  width: 100%;
+    width: 100%;
 }
 
-.login-section form label:last-of-type { /* label for checkbox */
-  opacity: 0.8;
-  font-weight: 300;
+.login-section form label:last-of-type {
+    /* label for checkbox */
+    opacity: 0.8;
+    font-weight: 300;
 }
 
 .login-section input[type="text"],
 .login-section input[type="password"] {
-  width: 100%;
-  height: 24px;
-  margin-bottom: 30px;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 30px;
 }
 
 .login-section input[type="checkbox"] {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .login-section button {
-  display: block;
-  margin-left: auto;
+    display: block;
+    margin-left: auto;
     margin-right: 0;
     padding-top: 3px;
     padding-bottom: 3px;
-  width: 70px;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: #3B3E99;
-  color: white;
+    width: 70px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #3b3e99;
+    color: white;
 }
 
-.login-section button:hover{
-  background-color: #1c1f7c;
+.login-section button:hover {
+    background-color: #1c1f7c;
 }
 
 .login-section a {
-	display: block;
-	width: 240px;
-	margin-top: 30px;
-  	margin-left: auto;
- 	margin-right: auto;
- 	text-decoration: none;
- 	font-weight: 300;
-	font-size: 11px;
-	opacity: 0.5;
-	color: white;
+    display: block;
+    width: 240px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 11px;
+    opacity: 0.5;
+    color: white;
 }
 
 .login-section a span {
-	font-weight: 400;
-	text-decoration: underline;
+    font-weight: 400;
+    text-decoration: underline;
 }

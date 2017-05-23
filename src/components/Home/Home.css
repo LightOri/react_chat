@@ -1,17 +1,17 @@
 .home {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: calc(100vh - 60px);
-	/*background-color: #DCDCDC;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+    /*background-color: #DCDCDC;*/
 }
 
 .home h1 {
-	padding: 15px;
-	font-size: 4em;
-	text-align: center;
-	color: #9c9dd8;
-	/*border: 15px groove #D3D3D3;*/
-	text-shadow: 0 0 5px #8486d6;
+    padding: 15px;
+    font-size: 4em;
+    text-align: center;
+    color: #9c9dd8;
+    /*border: 15px groove #D3D3D3;*/
+    text-shadow: 0 0 5px #8486d6;
 }
